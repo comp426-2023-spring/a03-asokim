@@ -1,0 +1,19 @@
+{
+  "name": "rpsls",
+  "version": "1.0.0",
+  "description": "Create a module-based command line Node.js package",
+  "main": "./lib/rpsls.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2023-spring/a03-asokim.git"
+  },
+  "author": "asokim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/comp426-2023-spring/a03-asokim/issues"
+  },
+  "homepage": "https://github.com/comp426-2023-spring/a03-asokim#readme"
+}
