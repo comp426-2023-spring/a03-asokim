@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/comp426-2023-spring/a03-asokim/issues"
   },
-  "homepage": "https://github.com/comp426-2023-spring/a03-asokim#readme"
+  "homepage": "https://github.com/comp426-2023-spring/a03-asokim#readme",
+  "dependencies": {
+    "minimist": "^1.2.8"
+  }
 }
