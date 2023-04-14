@@ -35,7 +35,7 @@ if (args.r || args.rules) {
 let game = rps(args._[0]);
 try {
     console.log(JSON.stringify(game));
-} catch (err) {
+} catch (e) {
     console.log(help);
     console.log(rules);
     process.exit(1);
