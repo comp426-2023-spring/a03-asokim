@@ -35,7 +35,7 @@ if (args.r || args.rules) {
 let game = args._[0];
 
 try {
-    console.log(JSON.stringify(rps_function(game)));
+    console.log(JSON.stringify(rps(game)));
     
 } catch (error){
     console.log(help);
