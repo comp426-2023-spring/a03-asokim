@@ -31,3 +31,12 @@ if (args.r || args.rules) {
     console.log(rules);
     process.exit(0);
 }
+
+let game = rps(args._[0]);
+try {
+    console.log(JSON.stringify(game));
+} catch (err) {
+    console.log(help);
+    console.log(rules);
+    process.exit(0);
+}
