@@ -39,7 +39,7 @@ if (args.r || args.rules) {
     process.exit(0);
 }
 
-let game = rps(args._[0]);
+let game = rpsls(args._[0]);
 try {
     console.log(JSON.stringify(game));
 } catch (err) {
