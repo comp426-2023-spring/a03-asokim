@@ -38,7 +38,7 @@ try {
     console.log(JSON.stringify(rps_function(game)));
     
 } catch (error){
-    console.log(help_message);
+    console.log(help);
     console.log(rules);
     process.exit(1);
 }
