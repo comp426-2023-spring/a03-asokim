@@ -24,4 +24,5 @@ const rules = `Rules for Rock Paper Scissors:
               
 if (args.h || args.help) {
     console.log(help);
+    process.exit(0);
 }
