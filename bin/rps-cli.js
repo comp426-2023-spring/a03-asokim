@@ -26,3 +26,8 @@ if (args.h || args.help) {
     console.log(help);
     process.exit(0);
 }
+
+if (args.r || args.rules) {
+    console.log(rules);
+    process.exit(0);
+}
